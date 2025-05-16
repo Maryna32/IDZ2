@@ -1,0 +1,82 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+#repo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#repo-list li {
+  cursor: pointer;
+  width: 25%;
+  border-radius: 4px;
+}
+
+#repo-list li:hover {
+  background-color: #e0e0e0;
+}
+
+#repo-details {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+input,
+button,
+select {
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  border: none;
+  width: 150px;
+  background-color: rgb(167, 68, 33);
+  color: antiquewhite;
+  height: 35px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(109, 48, 8);
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(109, 48, 8);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #000000;
+}
+
+th {
+  background-color: #f2f2f2;
+}

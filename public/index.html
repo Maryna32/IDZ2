@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ІДЗ2</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Пошук репозиторіїв</h1>
+    <label for="username">Введіть користувача </label>
+    <input type="text" id="username" name="username" />
+    <button onclick="getRepositories()">Пошук</button>
+    <h2>Список репозиторіїв</h2>
+    <ul id="repo-list"></ul>
+    <div id="repo-details" style="display: none">
+      <h2>Деталі обраного репозиторію</h2>
+      <p id="repo-name"></p>
+      <p id="repo-description"></p>
+      <p id="repo-url"></p>
+      <p id="repo-created"></p>
+      <p id="repo-updated"></p>
+      <p id="repo-languages"></p>
+      <h3>Гілки</h3>
+      <select id="branch-select" onchange="getCommits()"></select>
+      <h3>Коміти</h3>
+      <ul id="commit-list"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
